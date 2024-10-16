@@ -1,0 +1,22 @@
+.footer-toolbar {
+    position: fixed; /* Fixar o footer na parte inferior */
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .copyright {
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 5px;
+
+        &:hover {
+            color: #e26288;
+            
+        }
+    }
+}
